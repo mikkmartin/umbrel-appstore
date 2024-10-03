@@ -8,7 +8,7 @@ services:
       APP_PORT: 4000
 
   server:
-    image: ghcr.io/mikkmartin/cron-app:main-672d304@sha256:fb921e1089ce97783b417e4ea3b0f7ad0cbeeaa9ad87df52bb29b1c353813f59
+    image: ghcr.io/mikkmartin/cron-app:main@sha256:fb921e1089ce97783b417e4ea3b0f7ad0cbeeaa9ad87df52bb29b1c353813f59
     ports:
       - 4000:4000
     restart: on-failure
