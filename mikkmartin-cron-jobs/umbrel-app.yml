@@ -2,9 +2,9 @@ manifestVersion: 1
 id: mikkmartin-cron-jobs
 name: Cron jobs
 tagline: Replace this tagline with your app's tagline
-icon: https://mikkmartin.github.io/umbrel-appstore/sparkles-hello-world/icon.svg
+icon: https://mikkmartin.github.io/umbrel-appstore/mikkmartin-cron-jobs/icon.svg
 category: Development
-version: "0.1.1"
+version: "0.1.2"
 port: 4000
 description: >-
   Add your app's description here.
