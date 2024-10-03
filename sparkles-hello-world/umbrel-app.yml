@@ -2,9 +2,9 @@ manifestVersion: 1
 id: sparkles-hello-world
 name: Hello World
 tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
+icon: https://mikkmartin.github.io/umbrel-appstore/sparkles-hello-world/icon.svg
 category: Development
-version: "0.0.3"
+version: "0.0.4"
 port: 4000
 description: >-
   Add your app's description here.
