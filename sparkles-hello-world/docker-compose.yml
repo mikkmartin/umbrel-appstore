@@ -10,5 +10,5 @@ services:
 
   server:
     init: true
-    image: ghcr.io/mikkmartin/cron-app:main@sha256:291a2cdab21341915fbacb7e5ef8678ba3505d4d583da5d16f0569c359fb4dc6
+    image: ghcr.io/mikkmartin/cron-app:main@sha256:06ad657bebae5f73f36ece2430f7e32f3eeae37f8c26efb48e26731f4a84f164
     restart: on-failure
