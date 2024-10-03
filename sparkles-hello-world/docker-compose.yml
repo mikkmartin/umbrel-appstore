@@ -1,14 +1,15 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
+      APP_PORT: 4000
+
   server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
+    image: ghcr.io/mikkmartin/cron-app:sha256-fb921e1089ce97783b417e4ea3b0f7ad0cbeeaa9ad87df52bb29b1c353813f59.sig
+    ports:
+      - 4000:4000
+    restart: on-failure
     init: true
