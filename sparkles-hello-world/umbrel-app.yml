@@ -4,7 +4,7 @@ name: Cron jobs
 tagline: Replace this tagline with your app's tagline
 icon: https://mikkmartin.github.io/umbrel-appstore/sparkles-hello-world/icon.svg
 category: Development
-version: "0.0.5"
+version: "0.0.6"
 port: 4000
 description: >-
   Add your app's description here.
